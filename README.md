@@ -3,7 +3,7 @@
 ## Description 
 
 This projects aim was to take an already functioning webpage for Horiseon and optimize it. Done by editing the code in a way that wont affect the site visually or causing functionality changes to the user. However it will improve the readability of the code itself for future edits. Also removing any unneccasry redundancies that can create extra processing time.
-[Link to Live Website](https://fiaschettima.github.io/Horiseon-challenge/)
+Here is a [Link to the Live Website](https://fiaschettima.github.io/Horiseon-challenge/).
 
 ![Example of css simplification](assets\images\uncondcss.png)
 ![simplified css](assets\images\simplifiedCSS.png)
