@@ -58,82 +58,19 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+.content img {
+    max-height: 200px;
 }
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
+/* Simplify 3 css selectors into one calling all img elements in class content*/
+.content h2{
+    margin-bottom: 20px;
+    font-size: 36px;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,34 +97,42 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.search-engine-optimization img {
-    max-height: 200px;
+/*Simplify 3 css selectors calling on individual ids to one using just class--elem*/
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
-
-.social-media-marketing img {
-    max-height: 200px;
+/*rearrange alot of css to follow flow of html*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
 }
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.benefits article{
+    margin-bottom: 32px;
+    color: #ffffff;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/*Another chance to simplify css using everything in class benefits thats either an article or h3*/
+.benefits h3{
+    margin-bottom: 10px;
+    text-align: center;
 }
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.benefits img{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
-
+/*Consolidated more css*/
 footer {
     padding: 30px;
     clear: both;
@@ -195,6 +140,8 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+/*footer h2 {
     font-size: 20px;
 }
+This could be changed by selecting a different h element 3...4... 
+will achieve similar results withour requiring any css*/

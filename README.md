@@ -20,7 +20,6 @@ THEN I find a concise, descriptive title
 
 ## other tasks
 
---ensure all links function properly
 -- css selectors and properties are organized and consoloidated where possible folloing semantic structure
 --css file has good notes to explain codes function
 --deployable at live url
@@ -41,7 +40,7 @@ file description screenshot nad link to final application
 
 ## Description 
 
-This projects aim was to take an already functioning webpage for Horiseon and optimize it. Done by editing the code in a way that wont affect the site visually or any functionality changes to the user. However it will improve the readability of the code itself for future edits. Also removing any unneccasry redundancies that can extra processing time.
+This projects aim was to take an already functioning webpage for Horiseon and optimize it. Done by editing the code in a way that wont affect the site visually or causing functionality changes to the user. However it will improve the readability of the code itself for future edits. Also removing any unneccasry redundancies that can create extra processing time.
 [Link to Live Website](https://fiaschettima.github.io/Horiseon-challenge/)
 
 
